@@ -37,7 +37,29 @@ main{
     position: relative;
     top: 81px;
     left: 22px;
-    width: 269px;
+    width: 267px;
     height: 478px;
     
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+
+.botao:hover{
+    border: 2px solid rgba(255, 255, 255, 0.408);
+    transform: translate(-10px, -10px);
+    box-shadow: 5px 5px 10px rgba(162, 160, 160, 0.535);
+    transition: .3s;
+}
+
+#redes{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
 }
